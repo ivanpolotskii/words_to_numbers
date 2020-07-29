@@ -1,0 +1,30 @@
+.header{
+	height: 80px;
+	background: orange;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	color: white;
+	font-weight: 700;
+	font-family: Arial;
+	box-shadow: 5px 0px 15px black;
+	letter-spacing: 2px;
+}
+.wrapper{
+	position: relative;
+	top: 180px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 200px;
+}
+.text, .num{
+	font-family: Arial;
+	height: 70px;
+	padding: 20px;
+	border: 5px solid rgb(140, 140, 228);
+	border-radius: 10px;
+	font-size: 40px;
+}
